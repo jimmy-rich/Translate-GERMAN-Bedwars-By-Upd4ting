@@ -1,0 +1,89 @@
+#__________           ._____      __                      
+#\______   \ ____   __| _/  \    /  \_____ _______  ______
+# |    |  _// __ \ / __ |\   \/\/   /\__  \\_  __ \/  ___/
+# |    |   \  ___// /_/ | \        /  / __ \|  | \/\___ \ 
+# |______  /\___  >____ |  \__/\  /  (____  /__|  /____  >
+#        \/     \/     \/       \/        \/           \/ 
+#
+#
+#                   Developed By Upd4ting                   
+#                       Version: 0.1                   
+#                         lang.yml  
+
+
+# You can customize all the messages of the plugin
+# ALL THE MESSAGE CAN BE DISABLED BY PUTTING THE MESSAGE TO 'DISABLED'
+# WARNING: Inventory name cannot be longer than 32 character !
+
+# All gameplay message
+Gameplay:
+  join: '&b%p &6verbunden das Spiel (%current/%max)'
+  leave: '&b%p &6das Spiel verlassen (%current/%max)'
+  leaveIngame: '&b%p &6das Spiel verlassen!'
+  rejoin: '&b%p &6wieder angeschlossen das Spiel rechtzeitig!'
+  death: '&b%p &6ist gestorben!'
+  deathByPlayer: '&b%p ist dadurch getötet worden &4%k'
+  joinSpec: '&6Sie sind jetzt ein Zuschauer!'
+  itemReturnLobby: '&6Rückkehr zur Vorhalle'
+  gameStart: '&6Spiel hat angefangen!'
+  gameTimeStart: '&6Spiel fängt darin an %t Sekunden'
+  teamWin: '&eSpieler: %winners habe gewonnen!'
+  playerWin: '&e%p hat gewonnen!'
+  spectatorTp: '&4Gehen Sie nicht zu weit weg von einem Spieler!'
+  noEnoughPlayer: '&4Nicht genug Spieler, um das Spiel zu starten!'
+  leaderboard: '&7------&4Leaderboard&7------'
+  revived: '&4Du bist wiederbelebt worden'
+  gameConfigure: '&4Das Spiel muss konfiguriert sein!'
+  bedDestroyedTitle: '&4Dein Bett ist zerstört!'
+  bedDestroyedTitle2: '&7Sie werden nicht mehr respektieren!'
+  bedDestroyed: '&4Das Bett des Mannschaften %team &4ist dadurch zerstört worden &4%player'
+  bedHelp: '&4Verteidigen Sie Ihr Bett!'
+  bedHelpDestroyed: '&4Bett zerstört dadurch &6%player'
+  finalKill: '&l&eENDTÖTUNG'
+  respawn: '&7Sie werden darin wiederlaichen &4%second &7Sekunden'
+  cantDestroyOwnBed: '&4Du kannst dein eigenes Bett nicht zerstören!'
+
+# All team message
+Team:
+  joinTeam: '&b%p Trat dem Team bei!'
+  leaveTeam: '&b%p Verließ das Team!'
+  teamFull: '&4Team ist voll!'
+  nameMenu: '&8Teamauswahl'
+  nameItem: '&6Wählen Sie ein Team aus'
+
+# All MOTD translation
+Motd:
+  config: 'Das Spiel wird konfiguriert'
+  waiting: 'Warten'
+  ingame: 'Im Spiel'
+  finished: 'Ende'
+
+# All kick message translation
+Kick:
+  gameStarted: '&4Das Spiel hat begonnen!'
+  gameFinished: '&4Das Spiel ist fertig!'
+  gameFull: '&4Das Spiel ist voll!'
+
+# Translation for Stat command
+StatCommand:
+  playerNotExist: '&4Spieler ist nicht online!'
+  usage: '&6Verwendung: &7/stat <name>'
+  info:
+    - '&7====== &e%name''s stats &7======'
+    - '&6Töten: &4%kill'
+    - '&6Tod: &4%death'
+    - '&6Sieg: &4%win'
+    - '&6Verlieren: &4%lose'
+    - '&6Spiel gespielt: &4%gamePlayed'
+
+# Translation for shop
+Shop:
+  nameMenu: "&6Geschäft"
+  nameMenuCat: "&6Kategorie: &4%name"
+
+# Translation for special generator
+SpecialGenerator:
+  line1: '%tiers'
+  line2: '%name'
+  line3: 'Laich darin %second Sekunden'
+  upgraded: '&eGenerator &4%name &Wurde aufgerüstet %tiers'
